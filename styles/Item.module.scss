@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 21px;
+
+  a {
+    justify-content: flex-start;
+    width: fit-content;
+
+    &:hover {
+      background-color: rgba(251, 191, 36, 0.2);
+    }
+  }
+
+  p:not(:first-child) {
+    font-weight: 300;
+  }
+
+  .item__date {
+    color: rgb(163, 163, 163);
+  }
+
+  .item__subtitle {
+    color: rgb(115, 115, 115);
+  }
+}

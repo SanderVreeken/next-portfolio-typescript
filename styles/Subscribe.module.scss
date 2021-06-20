@@ -1,0 +1,41 @@
+.subscribe {
+  background-color: rgba(23, 23, 23, 0.05);
+  border-color: rgba(163, 163, 163, 0.2);
+  border-style: dashed;
+  border-width: 1px 0;
+  display: flex;
+  flex-direction: column;
+  margin: 2.4rem 0;
+  max-width: 640px;
+  padding: 2rem !important;
+  width: 100%;
+
+  button {
+    background-color: white;
+    margin-top: 0 !important;
+  }
+
+  button,
+  input {
+    height: 42px;
+    width: 100%;
+  }
+
+  h4 {
+    margin-bottom: 8px;
+  }
+
+  input {
+    margin-bottom: 4px;
+  }
+
+  p {
+    padding-bottom: 0.8rem !important;
+  }
+
+  span {
+    flex-direction: column;
+    max-width: 640px;
+    width: 100%;
+  }
+}
