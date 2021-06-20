@@ -15,6 +15,28 @@ export const articles = [{
     title: 'How-to Create and Export Animations with Anima in Sketch'
 }]
 
+export const experiences = [{
+    date: 'Nov. 2019 - Present',
+    function: 'Revenue Executive',
+    subtitle: 'Mainly responsible for the hotels Holiday Inn Express Arnhem & The Hague Parliament. Created tools and automated most of the repetitive using Excel and marcros written in VBA.',
+    title: 'The Vincent Hotel Group',
+}, {
+    date: 'Sep. 2018 - Oct. 2019',
+    function: 'Senior Group Housing Specialist',
+    subtitle: 'Responsible for creating and maintaining group rooms blocks in both Opera and MARSHA. Assisted during the merge between Marriott and Starwood on property',
+    title: 'Sheraton Amsterdam Airport Hotel',
+}, {
+    date: 'Nov. 2017 - May. 2018',
+    function: 'Rooms, Revenue & Duty Trainee',
+    subtitle: 'Final internship for Hotelschool The Hague, introduced to main revenue systems used by Marriott International. As well given the chance to perform duty shifts.',
+    title: 'The Hague Marriott Hotel',
+}, {
+    date: 'Jul. 2015 - Jan. 2016',
+    function: 'Front Office, Kitchen & Service Restaurant ',
+    subtitle: 'Practical placement internship for Hotelschool The Hague. Introduced to the basics of the hospitality industry and the French culture & language.',
+    title: 'Royal Mougins Golf Club & Hotel',
+}]
+
 export const projects = [{
     href: 'https://react-corona-statistics.vercel.app',
     subtitle: 'Application showing the statistics with regards to corona per country using drag-n-drop.',

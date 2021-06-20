@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Anchor from '../components/Anchor'
 import Button from '../components/Button'
 import Header from '../components/Header'
+import Item from '../components/Item'
 import Subscribe from '../components/Subscribe'
 import Text from '../components/Text'
+import { experiences } from '../elements/items'
 import styles from '../styles/About.module.scss'
 
 export default function About() {
@@ -35,10 +37,15 @@ export default function About() {
             <p className={styles.home__intro}>You can find me on <a href='https://twitter.com/SanderVreeken'>Twitter</a>, or on GitHub where I’m building and maintaining in the open for both <a href='https://github.com/SanderVreeken'>myself</a> and <a href='https://github.com/The-Vincent-Hotel-Group'>The Vincent Hotel Group.</a></p>
           </Text>
           <Anchor href='/assets/CV_Sander-Vreeken.pdf'>
-            <Button>Download my CV</Button>
+            <Button>Download my CV [.pdf]</Button>
           </Anchor>
         </span>
         <Subscribe />
+        <span>
+            {experiences.map((project, index) => (
+                <Item item={project} key={index} />
+            ))}
+        </span>
       </main>
     </div>
   )

@@ -1,6 +1,7 @@
 interface ItemI {
     date?: string
-    href: string
+    function?: string
+    href?: string
     subtitle: string
     title: string
 }
