@@ -1,0 +1,39 @@
+.banner {
+  background-color: #ffe000;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+
+  a {
+    white-space: nowrap;
+    margin-left: 4px;
+
+    p {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    font-weight: bold;
+    letter-spacing: 0;
+  }
+
+  span {
+    display: flex;
+    max-width: 640px;
+    padding: 0 16px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .banner {
+    span {
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}

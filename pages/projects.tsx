@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Banner from '../components/Banner'
 import Header from '../components/Header'
 import Item from '../components/Item'
 import Subscribe from '../components/Subscribe'
@@ -26,6 +27,7 @@ export default function Projects() {
                 <Item item={project} key={index} />
             ))}
         </span>
+        <Banner />
       </main>
     </div>
   )

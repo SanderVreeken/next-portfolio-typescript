@@ -2,6 +2,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding-bottom: 60px;
 
   h1 {
     font-weight: 900;
@@ -24,5 +25,11 @@
 
   .projects__heading {
     margin: 5rem 0 1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    padding-bottom: 88px;
   }
 }
