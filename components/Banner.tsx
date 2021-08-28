@@ -1,6 +1,7 @@
 import Anchor from './Anchor'
 import styles from '../styles/Banner.module.scss'
 
+// Banner that is fixed at the bottom of the projects and writing page.
 export default function Banner() {
     return (
         <div className={styles.banner}>
