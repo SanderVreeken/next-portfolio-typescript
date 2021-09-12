@@ -26,6 +26,9 @@ export default function Home() {
           <Text>
             <p className={styles.home__intro}>In the past I have worked for the <a href='https://www.marriott.com/hotels/travel/amssi-sheraton-amsterdam-airport-hotel-and-conference-center/'>Sheraton Amsterdam Airport Hotel</a> and the <a href='https://www.marriott.com/hotels/travel/rtmmc-the-hague-marriott-hotel/'>The Hague Marriott Hotel</a>, both in a revenue function.</p>
           </Text>
+          <Text>
+            <p className={styles.home__intro}>I am currenlty building <a href='https://www.tasktilt.com'>Tasktilt</a>, a task managenment tool.</p>
+          </Text>
           <span>
             <Anchor href='/about'>
               <Button>Learn more about me</Button>
