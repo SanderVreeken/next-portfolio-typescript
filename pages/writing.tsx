@@ -21,7 +21,7 @@ export default function Writing() {
                 <h1>Writing</h1>
                 <h2>Ideas and tutorials about software design and development.</h2>
             </span>
-            <Subscribe />
+            {/* <Subscribe /> */}
             <span>
                 {articles.map((article, index) => (
                     <Item item={article} key={index} />

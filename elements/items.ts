@@ -41,11 +41,13 @@ export const projects = [{
     href: 'https://react-corona-statistics.vercel.app',
     subtitle: 'Application showing the statistics with regards to corona per country using drag-n-drop.',
     title: 'Corona Statistics per Country'
-}, {
-    href: 'https://github.com/The-Vincent-Hotel-Group',
-    subtitle: 'Scripts written in either VBA or JavaScript that automate most of the repetitive tasks in the revenue team. Only limited number of scripts available due to company information that is included.',
-    title: 'Automated Reporting for The Vincent Hotel Group'
-}, {
+}, 
+// {
+//     href: 'https://github.com/The-Vincent-Hotel-Group',
+//     subtitle: 'Scripts written in either VBA or JavaScript that automate most of the repetitive tasks in the revenue team. Only limited number of scripts available due to company information that is included.',
+//     title: 'Automated Reporting for The Vincent Hotel Group'
+// }, 
+{
     href: 'https://next-corona-statistics.vercel.app',
     subtitle: 'Simple application showing the total number of cases, deaths and recovered in a graph.',
     title: 'Corona Statistics in Graph'

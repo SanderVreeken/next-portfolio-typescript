@@ -40,7 +40,7 @@ export default function About() {
             <Button>Download my CV [.pdf]</Button>
           </Anchor>
         </span>
-        <Subscribe />
+        {/* <Subscribe /> */}
         <span>
             {experiences.map((project, index) => (
                 <Item item={project} key={index} />

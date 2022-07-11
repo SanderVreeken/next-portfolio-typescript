@@ -21,7 +21,7 @@ export default function Projects() {
             <h1>Projects</h1>
             <h2>Apps and scripts written for myself and others.</h2>
         </span>
-        <Subscribe />
+        {/* <Subscribe /> */}
         <span>
             {projects.map((project, index) => (
                 <Item item={project} key={index} />
