@@ -25,7 +25,7 @@ export default function About() {
             <Image alt='Photo Sander Vreeken' height={308.8} layout='fixed' src='/assets/SanderVreeken.jpg' width={231.6} />
           </span>
           <Text>
-            <p className={styles.home__intro}>Hey, I&apos;m Sander. I&apos;m a <a href='https://dribbble.com/SanderVreeken'>designer</a>, revenue executive, <a href='https://medium.com/@alexanderfvreeken'>writer</a>, and <a href='https://github.com/SanderVreeken'>software tinkerer.</a> I&apos;m currently looking after the rates of the <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/arnhem/zymex/hoteldetail'>Holiday Inn Express Arnhem</a> & <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/the-hague/hagms/hoteldetail'>Holiday Inn Express The Hague Parliament</a> while <a href='https://github.com/The-Vincent-Hotel-Group'>automating most of the repetitive tasks.</a></p>
+            <p className={styles.home__intro}>Hey, I&apos;m Sander. I&apos;m a <a href='https://dribbble.com/SanderVreeken'>designer</a>, revenue executive, <a href='https://medium.com/@sandervreeken'>writer</a>, and <a href='https://github.com/SanderVreeken'>software tinkerer.</a> I&apos;m currently looking after the rates of the <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/arnhem/zymex/hoteldetail'>Holiday Inn Express Arnhem</a> & <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/the-hague/hagms/hoteldetail'>Holiday Inn Express The Hague Parliament</a> while <a href='https://github.com/The-Vincent-Hotel-Group'>automating most of the repetitive tasks.</a></p>
           </Text>
           <Text>
             <p className={styles.home__intro}>In the past I have worked for the <a href='https://www.marriott.com/hotels/travel/amssi-sheraton-amsterdam-airport-hotel-and-conference-center/'>Sheraton Amsterdam Airport Hotel</a> and the <a href='https://www.marriott.com/hotels/travel/rtmmc-the-hague-marriott-hotel/'>The Hague Marriott Hotel</a>, both in a revenue role.</p>
@@ -42,9 +42,9 @@ export default function About() {
         </span>
         {/* <Subscribe /> */}
         <span>
-            {experiences.map((project, index) => (
-                <Item item={project} key={index} />
-            ))}
+          {experiences.map((project, index) => (
+            <Item item={project} key={index} />
+          ))}
         </span>
       </main>
     </div>
