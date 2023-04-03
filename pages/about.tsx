@@ -25,7 +25,7 @@ export default function About() {
             <Image alt='Photo Sander Vreeken' height={308.8} layout='fixed' src='/assets/SanderVreeken.jpg' width={231.6} />
           </span>
           <Text>
-            <p className={styles.home__intro}>Hey, I&apos;m Sander. I&apos;m a <a href='https://dribbble.com/SanderVreeken'>designer</a>, revenue executive, <a href='https://medium.com/@sandervreeken'>writer</a>, and <a href='https://github.com/SanderVreeken'>software tinkerer.</a> I&apos;m currently looking after the rates of the <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/arnhem/zymex/hoteldetail'>Holiday Inn Express Arnhem</a> & <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/the-hague/hagms/hoteldetail'>Holiday Inn Express The Hague Parliament</a> while <a href='https://github.com/The-Vincent-Hotel-Group'>automating most of the repetitive tasks.</a></p>
+            <p className={styles.home__intro}>Hey, I&apos;m Sander. I&apos;m a <a href='https://dribbble.com/SanderVreeken'>designer</a>, revenue executive, <a href='https://medium.com/@sandervreeken'>writer</a>, and <a href='https://github.com/SanderVreeken'>software tinkerer.</a> I&apos;m currently looking after the rates of the <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/the-hague/amsop/hoteldetail'>Holiday Inn Express Amsterdam - Sloterdijk</a>, <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/arnhem/zymex/hoteldetail'>Holiday Inn Express Arnhem</a> & <a href='https://www.ihg.com/holidayinnexpress/hotels/nl/nl/the-hague/hagms/hoteldetail'>Holiday Inn Express The Hague - Parliament</a> while automating most of the repetitive tasks.</p>
           </Text>
           <Text>
             <p className={styles.home__intro}>In the past I have worked for the <a href='https://www.marriott.com/hotels/travel/amssi-sheraton-amsterdam-airport-hotel-and-conference-center/'>Sheraton Amsterdam Airport Hotel</a> and the <a href='https://www.marriott.com/hotels/travel/rtmmc-the-hague-marriott-hotel/'>The Hague Marriott Hotel</a>, both in a revenue role.</p>
@@ -34,13 +34,12 @@ export default function About() {
             <p className={styles.home__intro}>Before joining the workforce, I graduated from <a href='https://hotelschool.nl/en'>Hotelschool The Hague</a> with a Bachelor Business Administration in Hotel Management. In high school I completed my Pre University Education.</p>
           </Text>
           <Text>
-            <p className={styles.home__intro}>You can find me on <a href='https://twitter.com/SanderVreeken'>Twitter</a>, or on GitHub where I’m building and maintaining in the open for both <a href='https://github.com/SanderVreeken'>myself</a> and <a href='https://github.com/The-Vincent-Hotel-Group'>The Vincent Hotel Group.</a></p>
+            <p className={styles.home__intro}>You can find me on <a href='https://github.com/SanderVreeken'>GitHub</a> where I’m building and maintaining several projects in the open.</p>
           </Text>
           <Anchor href='/assets/CV_Sander-Vreeken.pdf'>
             <Button>Download my CV [.pdf]</Button>
           </Anchor>
         </span>
-        {/* <Subscribe /> */}
         <span>
           {experiences.map((project, index) => (
             <Item item={project} key={index} />
